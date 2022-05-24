@@ -5,13 +5,13 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      title: "Wlin",
+      title: "Willyan",
       titleTemplate: "%s - Blog",
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
-          hid: "Wlin",
-          name: "Wlin",
+          hid: "Willyan",
+          name: "Willyan",
           content: "Blog"
         }
       ],
