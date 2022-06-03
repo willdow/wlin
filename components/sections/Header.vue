@@ -4,12 +4,11 @@
     <div
       class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0 border-r border-gray-800"
     >
-      <NuxtLink to="/">
-        <div
-          class="flex h-16 w-16 items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 lg:w-20"
-        >
-          <img class="h-8 w-auto" src="../../assets/img/logo.svg" alt="Logo" />
-        </div>
+      <NuxtLink
+        to="/"
+        class="flex h-16 w-16 items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 lg:w-20"
+      >
+        <img class="h-8 w-auto" src="~/assets/img/logo.svg" alt="Logo" />
       </NuxtLink>
     </div>
     <!-- Picker area -->
@@ -80,7 +79,7 @@
             <NuxtLink to="/">
               <img
                 class="block h-8 w-auto"
-                src="../../assets/img/logo.svg"
+                src="~/assets/img/logo.svg"
                 alt="Logo"
               />
             </NuxtLink>

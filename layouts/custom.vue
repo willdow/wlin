@@ -10,7 +10,7 @@
       </main>
     </div>
     <footer class="flex items-center justify-center w-full h-8">
-      <p class="text-white text-sm">
+      <p class="text-gray-700 text-sm">
         © {{ new Date().getFullYear() }} Willyan LIN
       </p>
     </footer>
