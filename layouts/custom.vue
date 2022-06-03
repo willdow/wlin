@@ -1,13 +1,15 @@
 <template>
-  <div class="flex h-screen flex-col">
+  <div class="flex h-screen flex-col bg-black">
     <Header />
     <div class="flex min-h-0 flex-1 overflow-hidden">
       <Sidebar />
-      <main class="min-w-0 flex-1 border-t border-gray-200 xl:flex">
+      <main
+        class="min-w-0 flex-1 md:flex flex-col justify-center items-center mx-auto p-4 space-y-2"
+      >
         <slot />
       </main>
     </div>
-    <footer class="flex items-center justify-center w-full h-16 bg-black">
+    <footer class="flex items-center justify-center w-full h-8">
       <p class="text-white text-sm">
         © {{ new Date().getFullYear() }} Willyan LIN
       </p>

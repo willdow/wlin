@@ -1,19 +1,17 @@
 <template>
-  <header class="relative flex h-16 flex-shrink-0 items-center bg-white">
+  <header class="relative flex h-16 flex-shrink-0 items-center">
     <!-- Logo area -->
-    <div class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0">
-      <a
-        href="#"
-        class="flex h-16 w-16 items-center justify-center bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 lg:w-20"
-      >
-        <img
-          class="h-8 w-auto"
-          src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
-          alt="Workflow"
-        />
-      </a>
+    <div
+      class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0 border-r border-gray-800"
+    >
+      <NuxtLink to="/">
+        <div
+          class="flex h-16 w-16 items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 lg:w-20"
+        >
+          <img class="h-8 w-auto" src="../../assets/img/logo.svg" alt="Logo" />
+        </div>
+      </NuxtLink>
     </div>
-
     <!-- Picker area -->
     <div class="mx-auto lg:hidden">
       <!-- Menu button area -->
@@ -23,7 +21,7 @@
         <!-- Mobile menu button -->
         <button
           type="button"
-          class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+          class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
         >
           <span class="sr-only">Open main menu</span>
           <!-- Heroicon name: outline/menu -->
@@ -75,20 +73,20 @@
             To: "transform opacity-0 scale-110 sm:translate-x-full sm:scale-100 sm:opacity-100"
         -->
         <div
-          class="fixed z-40 inset-0 h-full w-full bg-white sm:inset-y-0 sm:left-auto sm:right-0 sm:max-w-xs sm:w-full sm:shadow-lg"
+          class="fixed z-40 inset-0 h-full w-full bg-black sm:inset-y-0 sm:left-auto sm:right-0 sm:max-w-xs sm:w-full sm:shadow-lg"
           aria-label="Global"
         >
           <div class="h-16 flex items-center justify-between px-4 sm:px-6">
-            <a href="#">
+            <NuxtLink to="/">
               <img
                 class="block h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=cyan&shade=400"
-                alt="Workflow"
+                src="../../assets/img/logo.svg"
+                alt="Logo"
               />
-            </a>
+            </NuxtLink>
             <button
               type="button"
-              class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+              class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
             >
               <span class="sr-only">Close main menu</span>
               <!-- Heroicon name: outline/x -->
@@ -110,23 +108,28 @@
             </button>
           </div>
           <div class="max-w-8xl mx-auto py-3 px-2 sm:px-4">
-            <a
-              href="#"
-              class="block rounded-md py-2 px-3 text-base font-medium text-gray-900 hover:bg-gray-100"
-              >Tips</a
-            >
+            <NuxtLink to="/tips">
+              <div
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+              >
+                Tips
+              </div>
+            </NuxtLink>
+            <NuxtLink to="/tools">
+              <div
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+              >
+                Tools
+              </div>
+            </NuxtLink>
 
-            <a
-              href="#"
-              class="block rounded-md py-2 px-3 text-base font-medium text-gray-900 hover:bg-gray-100"
-              >Tools</a
-            >
-
-            <a
-              href="#"
-              class="block rounded-md py-2 px-3 text-base font-medium text-gray-900 hover:bg-gray-100"
-              >Projects</a
-            >
+            <NuxtLink to="/projects">
+              <div
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+              >
+                Projects
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Willyan LIN",
-      titleTemplate: "%s - sharing place",
+      titleTemplate: "%s - Sharing place",
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {

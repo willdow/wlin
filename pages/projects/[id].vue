@@ -1,1 +1,3 @@
-<template>ici project</template>
+<template>
+  <div class="text-white">ici project {{ $route.params.id }}</div>
+</template>
