@@ -2,7 +2,7 @@
   <header class="relative flex h-16 flex-shrink-0 items-center">
     <!-- Logo area -->
     <div
-      class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0 border-r border-gray-800"
+      class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0 lg:border-r border-gray-800"
     >
       <NuxtLink
         to="/"
@@ -21,6 +21,7 @@
         <button
           type="button"
           class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+          @click="toggleMenu"
         >
           <span class="sr-only">Open main menu</span>
           <!-- Heroicon name: outline/menu -->
@@ -45,7 +46,12 @@
 
     <!-- Mobile menu, show/hide this `div` based on menu open/closed state -->
 
-    <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
+    <div
+      class="relative z-40 lg:hidden"
+      role="dialog"
+      aria-modal="true"
+      v-if="isMenuOpen"
+    >
       <!--
         Off-canvas menu backdrop, show/hide based on off-canvas menu state.
 
@@ -71,6 +77,7 @@
             From: "transform opacity-100 scale-100 sm:translate-x-0 sm:scale-100 sm:opacity-100"
             To: "transform opacity-0 scale-110 sm:translate-x-full sm:scale-100 sm:opacity-100"
         -->
+
         <div
           class="fixed z-40 inset-0 h-full w-full bg-black sm:inset-y-0 sm:left-auto sm:right-0 sm:max-w-xs sm:w-full sm:shadow-lg"
           aria-label="Global"
@@ -86,6 +93,7 @@
             <button
               type="button"
               class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+              @click="toggleMenu"
             >
               <span class="sr-only">Close main menu</span>
               <!-- Heroicon name: outline/x -->
@@ -135,3 +143,12 @@
     </div>
   </header>
 </template>
+<script setup>
+import { ref } from "vue";
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+</script>
