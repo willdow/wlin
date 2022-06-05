@@ -5,6 +5,7 @@
       class="absolute inset-y-0 left-0 lg:static lg:flex-shrink-0 lg:border-r border-gray-800"
     >
       <NuxtLink
+        @click="onToggleMenu"
         to="/"
         class="flex h-16 w-16 items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 lg:w-20"
       >
@@ -21,7 +22,7 @@
         <button
           type="button"
           class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
-          @click="toggleMenu"
+          @click="onToggleMenu"
         >
           <span class="sr-only">Open main menu</span>
           <!-- Heroicon name: outline/menu -->
@@ -81,9 +82,10 @@
         <div
           class="fixed z-40 inset-0 h-full w-full bg-black sm:inset-y-0 sm:left-auto sm:right-0 sm:max-w-xs sm:w-full sm:shadow-lg"
           aria-label="Global"
+          v-click-away="onToggleMenu"
         >
           <div class="h-16 flex items-center justify-between px-4 sm:px-6">
-            <NuxtLink to="/">
+            <NuxtLink @click="onToggleMenu" to="/">
               <img
                 class="block h-8 w-auto"
                 src="~/assets/img/logo.svg"
@@ -93,7 +95,7 @@
             <button
               type="button"
               class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
-              @click="toggleMenu"
+              @click="onToggleMenu"
             >
               <span class="sr-only">Close main menu</span>
               <!-- Heroicon name: outline/x -->
@@ -115,14 +117,14 @@
             </button>
           </div>
           <div class="max-w-8xl mx-auto py-3 px-2 sm:px-4">
-            <NuxtLink to="/tips">
+            <NuxtLink @click="onToggleMenu" to="/tips">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
               >
                 Tips
               </div>
             </NuxtLink>
-            <NuxtLink to="/tools">
+            <NuxtLink @click="onToggleMenu" to="/tools">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
               >
@@ -130,7 +132,7 @@
               </div>
             </NuxtLink>
 
-            <NuxtLink to="/projects">
+            <NuxtLink @click="onToggleMenu" to="/projects">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
               >
@@ -148,7 +150,7 @@ import { ref } from "vue";
 
 const isMenuOpen = ref(false);
 
-const toggleMenu = () => {
+const onToggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 </script>
