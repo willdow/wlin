@@ -117,11 +117,11 @@
             </button>
           </div>
           <div class="max-w-8xl mx-auto py-3 px-2 sm:px-4">
-            <NuxtLink @click="onToggleMenu" to="/tips">
+            <NuxtLink @click="onToggleMenu" to="/resources">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
               >
-                Tips
+                Resources
               </div>
             </NuxtLink>
             <NuxtLink @click="onToggleMenu" to="/tools">

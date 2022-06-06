@@ -20,7 +20,7 @@
         "store",
         "SPA"
       ],
-      "image": "",
+      "image": "https://github.com/willdow/wlin/blob/main/assets/img/gutenbook.png?raw=true",
       "description": "A web application featuring books from Gutenberg Project, which is a library of copyright-free public books.",
       "link": "https://gutenbook.netlify.app/"
     },

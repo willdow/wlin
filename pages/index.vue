@@ -11,14 +11,14 @@
       <div
         class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-gray-400"
       >
-        <NuxtLink to="/tips/">
+        <NuxtLink to="/resources/">
           <h1
             class="text-sm font-medium underline decoration-2 underline-offset-2"
           >
-            Tips
+            Resources
           </h1>
           <h2 class="text-sm text-gray-400 truncate pt-2">
-            Some tips that i want to share.
+            Some resources that i want to share.
           </h2>
         </NuxtLink>
       </div>
