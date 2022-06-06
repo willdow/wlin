@@ -4,7 +4,7 @@
     <img class="w-64" src="~/assets/img/3logos.png" alt="welcome" />
     <p>I'm Willyan LIN, a full-stack developer.</p>
     <div class="mt-8">
-      This site is made by Nuxt3 + Vue3 Composition API + Tailwind CSS
+      This site is made with Nuxt 3 + Vue 3 Composition API + Tailwind CSS
     </div>
     <div class="mt-16">Take a look at :</div>
     <div class="sm:flex-row flex-col flex sm:items-baseline">
@@ -43,9 +43,11 @@
           <h1
             class="text-sm font-medium underline decoration-2 underline-offset-2"
           >
-            Project
+            Projects
           </h1>
-          <h2 class="text-sm text-gray-400 truncate pt-2">Project developed</h2>
+          <h2 class="text-sm text-gray-400 truncate pt-2">
+            Projects developed
+          </h2>
         </NuxtLink>
       </div>
     </div>
