@@ -1,0 +1,39 @@
+  [
+    {
+      "id": 1,
+      "title": "This portfolio",
+      "subtitle": "A Place where I can share stuffs",
+      "tags": [
+        "vue",
+        "SSR"
+      ],
+      "image": "",
+      "description": "Made with Nuxt3, Vue 3 Composition API and Tailwind CSS. <br />There's still a lot to add and refactor but at least I started 👏",
+      "link": "https://github.com/willdow/wlin"
+    },
+    {
+      "id": 2,
+      "title": "Gutenbook",
+      "subtitle": "A website with books from Gutenberg Project",
+      "tags": [
+        "vue",
+        "store",
+        "SPA"
+      ],
+      "image": "",
+      "description": "A web application featuring books from Gutenberg Project, which is a library of copyright-free public books.",
+      "link": "https://gutenbook.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "CV App",
+      "subtitle": "Front of a search engine on the content of previously downloaded CVs.",
+      "tags": [
+        "vue",
+        "school"
+      ],
+      "image": "https://user-images.githubusercontent.com/28400679/138609757-b166d489-5080-4335-b6eb-e2bf6210506a.png",
+      "description": "Cv app is a cv search engine platform, helping HR to find quickly the perfect candidate by searching with simple or multiple keywords. <br />CVs can be uploaded with different formats such as PDF or DOCX. When uploaded, they are parsed and indexed in Elastic search DB.",
+      "link": "https://github.com/stl-insta/cv-app"
+    }
+  ]

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex items-center content-center">
-      <img class="h-16 w-16 object-contain" :src="tool.logo" alt="Logo" />
+      <img class="h-16 w-16 object-contain mr-1" :src="tool.logo" alt="Logo" />
       <div>
         <h1 class="text-lg font-medium">{{ tool.title }}</h1>
         <span
@@ -18,13 +18,15 @@
     <p v-html="tool.description" class="mt-6"></p>
     <img
       v-if="tool.image"
-      class="object-contain my-4 max-w-3xl"
+      class="object-contain mt-4 max-w-lg sm:max-w-3xl"
       :src="tool.image"
       alt="Image"
     />
-    <a :href="tool.link" class="underline decoration-2 underline-offset-2">
-      {{ tool.link }}
-    </a>
+    <div class="mt-4">
+      <a :href="tool.link" class="underline decoration-2 underline-offset-2">
+        {{ tool.link }}
+      </a>
+    </div>
   </div>
 </template>
 <script setup>
