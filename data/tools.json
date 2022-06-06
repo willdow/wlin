@@ -48,7 +48,7 @@
         "free"
       ],
       "logo": "https://rectangleapp.com/images/mac512pts1x.png",
-      "image": "https://user-images.githubusercontent.com/13651296/101402672-57ab5300-38d4-11eb-9e8c-6a3147d26711.png",
+      "image": "https://github.com/willdow/wlin/blob/main/assets/img/rectangle.png?raw=true",
       "description": "Useful when you are multitask with multiple apps at once, you may want to split your view. It's an alternative of Magnet",
       "link": "https://rectangleapp.com/"
     },
@@ -73,7 +73,7 @@
         "node"
       ],
       "logo": "https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg",
-      "image": "fff",
+      "image": "https://github.com/willdow/wlin/blob/main/assets/img/nvm.png?raw=true",
       "description": "Easily manage multiple active node.js versions",
       "link": "https://github.com/nvm-sh/nvm"
     }
