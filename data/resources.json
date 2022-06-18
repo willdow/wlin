@@ -1,10 +1,30 @@
   [
     {
       "id": 1,
-      "url": "https://xkcd.com/"
+      "url": "https://xkcd.com/",
+      "title": "Astronomer Hotline",
+      "description":"A webcomic of romance, sarcasm, math, and language.",
+      "icon": "https://xkcd.com//s/919f27.ico"
     },
     {
       "id": 2,
-      "url": "https://heroicons.dev/"
+      "url": "https://heroicons.dev/",
+      "title": "Heroicons – Free Open Source SVG Icon Library",
+      "description": "New MIT open source SVG icon library designed by Steve Schoger. Solid and stroke variants, one-click copy-paste, and Figma file. Built with Tailwind CSS.",
+      "icon": "https://heroicons.dev/static/favicon.ico"
+    },
+    {
+      "id": 3,
+      "url": "https://motherfuckingwebsite.com/",
+      "title": "Motherfucking Website",
+      "description":"A minimal website and some special advise.",
+      "icon":""
+    },
+    {
+      "id": 4,
+      "url": "https://mycolor.space/",
+      "title": "ColorSpace - Color Palettes Generator and Color Gradient Tool",
+      "description": "Here you can find the perfect matching color scheme for your next project! Generate nice color palettes, color gradients and much more! Your space for everything that has to do with color!",
+      "icon": "https://mycolor.space/favicon5.png"
     }
   ]

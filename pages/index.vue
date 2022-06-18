@@ -46,7 +46,7 @@
             Projects
           </h1>
           <h2 class="text-sm text-gray-400 truncate pt-2">
-            Projects developed
+            Projects developed.
           </h2>
         </NuxtLink>
       </div>

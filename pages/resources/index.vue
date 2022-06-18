@@ -1,26 +1,30 @@
 <template>
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
     <div
+      v-for="resource in resources"
+      :key="resource.id"
       class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400"
     >
       <div class="flex-shrink-0">
         <img
           class="h-16 w-16 object-contain"
-          :src="availableLogoUrl(meta.icon)"
+          :src="availableIcon(resource.icon)"
           alt="Logo"
         />
       </div>
       <div class="flex-1 min-w-0">
-        <a :href="meta.url">
-          <span class="absolute inset-0" aria-hidden="true" />
+        <a :href="resource.url">
           <h1
-            class="text-sm font-medium underline decoration-2 underline-offset-2"
+            class="text-sm font-medium"
           >
-            {{ meta.site_name }}
+            {{ resource.title }}
           </h1>
-          <h2 class="text-sm text-gray-400 truncate pt-2">
-            {{ meta.title }}
-          </h2>
+          <div class="text-sm text-gray-400 pt-2">
+            {{ resource.description }}
+          </div>
+          <div class="text-sm text-gray-400 truncate pt-2 underline decoration-2 underline-offset-2">
+            {{ resource.url }}
+          </div>
         </a>
       </div>
     </div>
@@ -31,27 +35,12 @@ import { ref } from "vue";
 import resourcesData from "~/data/resources";
 
 const resources = ref(resourcesData);
-const apiUrl = `https://metagrabber.vercel.app/api?url=`;
-const meta = ref();
-const ressourceUrl = ref(resources.value[0].url);
 
-meta.value = await (
-  await fetch(apiUrl + ressourceUrl.value, {
-    method: "GET",
-    headers: new Headers({
-      "Content-Type": "application/json",
-      Accept: "application/json"
-    }),
-    mode: "no-cors"
-  })
-).json();
-
-const availableLogoUrl = (url) => {
-  if (url.includes("https")) {
-    return url;
+const availableIcon = (icon) => {
+  if (icon?.includes("https")) {
+    return icon;
   } else {
-    return ressourceUrl.value + url;
+    return "https://dummyimage.com/16x16/ff/ff.png";
   }
 };
-console.log(meta.value);
 </script>

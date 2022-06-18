@@ -4,7 +4,7 @@
     <div class="flex min-h-0 flex-1 overflow-hidden">
       <Sidebar />
       <main
-        class="min-w-0 flex-1 md:flex flex-col justify-center items-center mx-auto p-4 space-y-2 text-white"
+        class="min-w-0 flex-1 md:flex flex-col justify-center items-center mx-auto space-y-2 text-white max-w-7xl sm:px-6 lg:px-8"
       >
         <slot />
       </main>
