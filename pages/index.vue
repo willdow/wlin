@@ -9,7 +9,7 @@
     <div class="mt-16">Take a look at :</div>
     <div class="sm:flex-row flex-col flex sm:items-baseline">
       <div
-        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-gray-400"
+        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
         <NuxtLink to="/resources/">
           <h1
@@ -23,7 +23,7 @@
         </NuxtLink>
       </div>
       <div
-        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-gray-400"
+        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
         <NuxtLink to="/tools/">
           <h1
@@ -37,7 +37,7 @@
         </NuxtLink>
       </div>
       <div
-        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-gray-400"
+        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
         <NuxtLink to="/projects/">
           <h1

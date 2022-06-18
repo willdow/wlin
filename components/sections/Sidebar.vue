@@ -7,7 +7,7 @@
     <div class="relative flex w-20 flex-col space-y-3 p-3 text-gray-400">
       <NuxtLink
         to="/resources"
-        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-gray-700"
+        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-red-900"
         active-class="bg-gray-900 text-white"
       >
         <svg
@@ -29,7 +29,7 @@
 
       <NuxtLink
         to="/tools"
-        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-gray-700"
+        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-red-900"
         active-class="bg-gray-900 text-white"
       >
         <svg
@@ -52,7 +52,7 @@
 
       <NuxtLink
         to="/projects"
-        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-gray-700"
+        class="flex flex-col h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg hover:bg-red-900"
         active-class="bg-gray-900 text-white"
       >
         <svg

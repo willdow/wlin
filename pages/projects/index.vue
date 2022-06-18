@@ -3,7 +3,7 @@
     <div
       v-for="project in projects"
       :key="project.id"
-      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400"
+      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-red-500"
     >
       <div class="flex-1 min-w-0">
         <NuxtLink :to="'/projects/' + project.id">

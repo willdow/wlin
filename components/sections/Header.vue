@@ -21,7 +21,7 @@
         <!-- Mobile menu button -->
         <button
           type="button"
-          class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+          class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
           @click="onToggleMenu"
         >
           <span class="sr-only">Open main menu</span>
@@ -94,7 +94,7 @@
             </NuxtLink>
             <button
               type="button"
-              class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+              class="-mr-2 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
               @click="onToggleMenu"
             >
               <span class="sr-only">Close main menu</span>
@@ -119,14 +119,14 @@
           <div class="max-w-8xl mx-auto py-3 px-2 sm:px-4">
             <NuxtLink @click="onToggleMenu" to="/resources">
               <div
-                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"
               >
                 Resources
               </div>
             </NuxtLink>
             <NuxtLink @click="onToggleMenu" to="/tools">
               <div
-                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"
               >
                 Tools
               </div>
@@ -134,7 +134,7 @@
 
             <NuxtLink @click="onToggleMenu" to="/projects">
               <div
-                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-gray-900"
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"
               >
                 Projects
               </div>

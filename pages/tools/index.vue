@@ -3,7 +3,7 @@
     <div
       v-for="tool in tools"
       :key="tool.id"
-      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400"
+      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-red-500"
     >
       <div class="flex-shrink-0">
         <img class="h-16 w-16 object-contain" :src="tool.logo" alt="Logo" />

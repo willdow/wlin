@@ -3,7 +3,7 @@
     <div
       v-for="resource in resources"
       :key="resource.id"
-      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400"
+      class="relative border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-red-500"
     >
       <div class="flex-shrink-0">
         <img
