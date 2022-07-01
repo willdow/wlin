@@ -10,12 +10,20 @@
       </div>
       <div class="flex-1 min-w-0">
         <NuxtLink :to="'/tools/' + tool.id">
-          <span class="absolute inset-0" aria-hidden="true" />
-          <h1
-            class="text-sm font-medium underline decoration-2 underline-offset-2"
-          >
-            {{ tool.title }}
-          </h1>
+          <div>
+            <h1
+              class="text-sm font-medium"
+            >
+              {{ tool.title }}
+            </h1>
+            <span
+                v-for="(tag, index) in tool.tags"
+                :key="index"
+                class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 mr-2"
+              >
+              {{ tag }}
+            </span>
+          </div>
           <h2 class="text-sm text-gray-400 truncate pt-2">
             {{ tool.subtitle }}
           </h2>

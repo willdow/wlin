@@ -124,6 +124,13 @@
                 Resources
               </div>
             </NuxtLink>
+            <NuxtLink @click="onToggleMenu" to="/elixir">
+              <div
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"
+              >
+                Elixir
+              </div>
+            </NuxtLink>
             <NuxtLink @click="onToggleMenu" to="/tools">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"

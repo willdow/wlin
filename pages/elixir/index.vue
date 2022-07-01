@@ -14,11 +14,18 @@
       </div>
       <div class="flex-1 min-w-0">
         <a :href="resource.url" target="_blank">
-          <h1
-            class="text-sm font-medium"
-          >
-            {{ resource.title }}
-          </h1>
+          <div>
+            <h1 class="text-sm font-medium">
+              {{ resource.title }}
+            </h1>
+            <span
+              v-for="(tag, index) in resource.tags"
+              :key="index"
+              class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 mr-2"
+            >
+            {{ tag }}
+            </span>
+          </div>
           <div class="text-sm text-gray-400 pt-2">
             {{ resource.description }}
           </div>
@@ -32,9 +39,9 @@
 </template>
 <script setup>
 import { ref } from "vue";
-import resourcesData from "~/data/resources";
+import elixirResourcesData from "~/data/elixir_resources";
 
-const resources = ref(resourcesData);
+const resources = ref(elixirResourcesData);
 
 const availableIcon = (icon) => {
   if (icon?.includes("https")) {

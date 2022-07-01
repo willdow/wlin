@@ -20,7 +20,7 @@
       alt="Image"
     />
     <div class="mt-4">
-      <a :href="project.link" class="underline decoration-2 underline-offset-2">
+      <a :href="project.link" class="underline decoration-2 underline-offset-2" target="_blank">
         {{ project.link }}
       </a>
     </div>
