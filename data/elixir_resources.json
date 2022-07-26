@@ -60,5 +60,15 @@
       "article", "french"
     ],
     "icon": "https://www.synbioz.com/hubfs/website-2021/logos/synbioz-logo.svg"
+  },
+  {
+    "id": 7,
+    "url": "https://awesome-elixir.ru/",
+    "title": "Awesome Elixir",
+    "description": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things.",
+    "tags": [
+      "resource", "inspiration"
+    ],
+    "icon": ""
   }
 ]

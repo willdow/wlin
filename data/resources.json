@@ -8,10 +8,10 @@
     },
     {
       "id": 2,
-      "url": "https://heroicons.dev/",
-      "title": "Heroicons – Free Open Source SVG Icon Library",
-      "description": "New MIT open source SVG icon library designed by Steve Schoger. Solid and stroke variants, one-click copy-paste, and Figma file. Built with Tailwind CSS.",
-      "icon": "https://heroicons.dev/static/favicon.ico"
+      "url": "https://remixicon.com/",
+      "title": "REMIX ICON - Open source neutral style icon system",
+      "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.",
+      "icon": "https://img.stackshare.io/service/11002/remixicon-padd.png"
     },
     {
       "id": 3,
