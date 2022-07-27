@@ -5,6 +5,26 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [
+        {
+          hid: 'google-tag',
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-R83ZVMKB85',
+          async: true
+        },
+        {
+          hid: 'segment',
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-R83ZVMKB85');
+          `,
+          type: 'text/javascript',
+          charset: 'utf-8'
+        }
+      ],
       title: "Willyan LIN",
       titleTemplate: "%s - Sharing place",
       meta: [
@@ -15,7 +35,7 @@ export default defineNuxtConfig({
           content: "Blog"
         }
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     }
   },
   build: {
