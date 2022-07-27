@@ -8,6 +8,7 @@
     "format": "prettier .  --write"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "autoprefixer": "^10.4.7",
     "nuxt": "3.0.0-rc.3",
     "postcss": "^8.4.14",
