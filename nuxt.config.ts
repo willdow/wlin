@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // app
@@ -7,11 +5,6 @@ export default defineNuxtConfig({
     head: {
       __dangerouslyDisableSanitizers: ['script'],
       script: [
-        {
-          hid: 'google-tag',
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-R83ZVMKB85',
-          async: true
-        },
         {
           hid: 'segment',
           innerHTML: `
@@ -38,14 +31,10 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     }
   },
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {}
-        }
-      }
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
     }
   },
   css: ["@/assets/css/main.css"]
