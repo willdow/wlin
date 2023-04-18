@@ -25,6 +25,20 @@
       <div
         class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
+        <NuxtLink to="/elixir/">
+          <h1
+            class="text-sm font-medium underline decoration-2 underline-offset-2"
+          >
+            Elixir
+          </h1>
+          <h2 class="text-sm text-gray-400 truncate pt-2">
+            The references I rely on for Elixir projects.
+          </h2>
+        </NuxtLink>
+      </div>
+      <div
+        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
+      >
         <NuxtLink to="/tools/">
           <h1
             class="text-sm font-medium underline decoration-2 underline-offset-2"
@@ -39,6 +53,18 @@
       <div
         class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
+        <NuxtLink to="/designs/">
+          <h1
+            class="text-sm font-medium underline decoration-2 underline-offset-2"
+          >
+            Designs
+          </h1>
+          <h2 class="text-sm text-gray-400 truncate pt-2">What inspires me</h2>
+        </NuxtLink>
+      </div>
+      <div
+        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
+      >
         <NuxtLink to="/projects/">
           <h1
             class="text-sm font-medium underline decoration-2 underline-offset-2"
@@ -47,20 +73,6 @@
           </h1>
           <h2 class="text-sm text-gray-400 truncate pt-2">
             Projects developed.
-          </h2>
-        </NuxtLink>
-      </div>
-      <div
-        class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
-      >
-        <NuxtLink to="/elixir/">
-          <h1
-            class="text-sm font-medium underline decoration-2 underline-offset-2"
-          >
-            Elixir
-          </h1>
-          <h2 class="text-sm text-gray-400 truncate pt-2">
-            The references I rely on for Elixir projects.
           </h2>
         </NuxtLink>
       </div>

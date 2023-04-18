@@ -138,7 +138,13 @@
                 Tools
               </div>
             </NuxtLink>
-
+            <NuxtLink @click="onToggleMenu" to="/designs">
+              <div
+                class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"
+              >
+                Designs
+              </div>
+            </NuxtLink>
             <NuxtLink @click="onToggleMenu" to="/projects">
               <div
                 class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-red-900"

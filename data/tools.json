@@ -30,7 +30,7 @@
     "title": "Rectangle",
     "subtitle": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
     "tags": ["macOS", "free"],
-    "logo": "https://rectangleapp.com/images/mac512pts1x.png",
+    "logo": "https://rectangleapp.com/assets/images/mac512pts1x.png",
     "image": "https://github.com/willdow/wlin/blob/main/assets/img/rectangle.png?raw=true",
     "description": "Useful when you are multitask with multiple apps at once, you may want to split your view. It's an alternative of Magnet",
     "link": "https://rectangleapp.com/"

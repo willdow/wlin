@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://remixicon.com/",
+    "title": "REMIX ICON - Open source neutral style icon system",
+    "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.",
+    "tags": ["icon"],
+    "icon": "https://img.stackshare.io/service/11002/remixicon-padd.png"
+  },
+  {
+    "url": "https://mycolor.space/",
+    "title": "ColorSpace - Color Palettes Generator and Color Gradient Tool",
+    "description": "Here you can find the perfect matching color scheme for your next project! Generate nice color palettes, color gradients and much more! Your space for everything that has to do with color!",
+    "tags": ["color"],
+    "icon": "https://mycolor.space/favicon5.png"
+  },
+  {
+    "url": "https://bruno-simon.com/",
+    "title": "Bruno Simon Portfolio",
+    "description": "The coolest portfolio I have ever seen, reading his experiences becomes a game (using three.js)",
+    "tags": ["portfolio"],
+    "icon": "https://pbs.twimg.com/media/EyIIFlJWYAEAg1o.jpg:large"
+  },
+  {
+    "url": "https://undraw.co/illustrations",
+    "title": "unDraw illustrations",
+    "description": "A huge collection of beautiful SVG illustrations completely free, just click to download. Take advantage of the on-the-fly color image generation to match your brand identity.",
+    "tags": ["illustration", "open-source"],
+    "icon": "https://undraw.co/apple-touch-icon.png"
+  },
+  {
+    "url": "https://www.webdesignmuseum.org/",
+    "title": "Web Design Museum",
+    "description": "Discover Forgotten Trends in Web Design, Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006.",
+    "tags": ["inspiration"],
+    "icon": "https://www.webdesignmuseum.org/assets/img/logo.svg"
+  },
+  {
+    "url": "https://userinyerface.com/",
+    "title": "User Inyerface",
+    "description": "A typical example to show the importance of UI, let's play the game",
+    "tags": ["UI", "game"],
+    "icon": ""
+  }
+]
