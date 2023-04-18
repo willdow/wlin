@@ -1,80 +1,56 @@
-  [
-    {
-      "id": 1,
-      "title": "Homebrew",
-      "subtitle": "A free and open-source package manager makes it easy to install and update applications and utilities.",
-      "tags": [
-        "macOS",
-        "musthave"
-      ],
-      "logo": "https://brew.sh/assets/img/homebrew-256x256.png",
-      "image": "",
-      "description": "Must have, Homebrew makes downloading easier. <br />When you need download something, verify if it is on Homebrew and use <i>brew install xxx</i>.",
-      "link": "https://brew.sh/"
-    },
-    {
-      "id": 2,
-      "title": "Oh My ZSH",
-      "subtitle": "A Powerful Terminal",
-      "tags": [
-        "terminal",
-        "opensource"
-      ],
-      "logo": "https://ohmyz.sh/img/OMZLogo_BnW.png",
-      "image": "https://ohmyz.sh/img/themes/kolo.jpg",
-      "description": "Oh My Zsh is a framework to simplify the configuration of the Zsh shell. It allows to add useful feature to the developers with plugins.",
-      "link": "https://ohmyz.sh/"
-    },
-    {
-      "id": 3,
-      "title": "Neat",
-      "subtitle": "Neat puts GitHub & Linear notifications in your menu bar",
-      "tags": [
-        "macOS",
-        "github",
-        "free"
-      ],
-      "logo": "https://avatars.githubusercontent.com/ml/10929?s=140&v=4",
-      "image": "https://marketplace-screenshots.githubusercontent.com/10929/7b7d6a5b-1193-48fe-bff3-dd97487f69e7?auto=webp&format=jpeg&width=670&dpr=2",
-      "description": "Neat gives developers notification control: mark as unread, pin, and mute. <br />Only receive notifications for what you truly care about: mentions, review requests, and merges. Built with privacy in mind: all data is stored locally.",
-      "link": "https://neat.run/"
-    },
-    {
-      "id": 4,
-      "title": "Rectangle",
-      "subtitle": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
-      "tags": [
-        "macOS",
-        "free"
-      ],
-      "logo": "https://rectangleapp.com/images/mac512pts1x.png",
-      "image": "https://github.com/willdow/wlin/blob/main/assets/img/rectangle.png?raw=true",
-      "description": "Useful when you are multitask with multiple apps at once, you may want to split your view. It's an alternative of Magnet",
-      "link": "https://rectangleapp.com/"
-    },
-    {
-      "id": 5,
-      "title": "Ngrok",
-      "subtitle": "One command for an instant, secure URL to your localhost server through any NAT or firewall.",
-      "tags": [
-        "dev"
-      ],
-      "logo": "https://ngrok.com/static/img/ngrok-white.svg",
-      "image": "https://ngrok.com/static/img/v2/terminal-v2.svg",
-      "description": "Useful to let people test your project without any deployment configuration and is not permanent. By default, at every build, a new random url will be generated.",
-      "link": "https://ngrok.com/"
-    },
-    {
-      "id": 6,
-      "title": "NVM",
-      "subtitle": "Node Version Manager",
-      "tags": [
-        "dev",
-        "node"
-      ],
-      "logo": "https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg",
-      "image": "https://github.com/willdow/wlin/blob/main/assets/img/nvm.png?raw=true",
-      "description": "Easily manage multiple active node.js versions",
-      "link": "https://github.com/nvm-sh/nvm"
-    }
-  ]
+[
+  {
+    "title": "Homebrew",
+    "subtitle": "A free and open-source package manager makes it easy to install and update applications and utilities.",
+    "tags": ["macOS", "musthave"],
+    "logo": "https://brew.sh/assets/img/homebrew-256x256.png",
+    "image": "",
+    "description": "Must have, Homebrew makes downloading easier. <br />When you need download something, verify if it is on Homebrew and use <i>brew install xxx</i>.",
+    "link": "https://brew.sh/"
+  },
+  {
+    "title": "Oh My ZSH",
+    "subtitle": "A Powerful Terminal",
+    "tags": ["terminal", "opensource"],
+    "logo": "https://ohmyz.sh/img/OMZLogo_BnW.png",
+    "image": "https://ohmyz.sh/img/themes/kolo.jpg",
+    "description": "Oh My Zsh is a framework to simplify the configuration of the Zsh shell. It allows to add useful feature to the developers with plugins.",
+    "link": "https://ohmyz.sh/"
+  },
+  {
+    "title": "Neat",
+    "subtitle": "Neat puts GitHub & Linear notifications in your menu bar",
+    "tags": ["macOS", "github", "free"],
+    "logo": "https://avatars.githubusercontent.com/ml/10929?s=140&v=4",
+    "image": "https://marketplace-screenshots.githubusercontent.com/10929/7b7d6a5b-1193-48fe-bff3-dd97487f69e7?auto=webp&format=jpeg&width=670&dpr=2",
+    "description": "Neat gives developers notification control: mark as unread, pin, and mute. <br />Only receive notifications for what you truly care about: mentions, review requests, and merges. Built with privacy in mind: all data is stored locally.",
+    "link": "https://neat.run/"
+  },
+  {
+    "title": "Rectangle",
+    "subtitle": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
+    "tags": ["macOS", "free"],
+    "logo": "https://rectangleapp.com/images/mac512pts1x.png",
+    "image": "https://github.com/willdow/wlin/blob/main/assets/img/rectangle.png?raw=true",
+    "description": "Useful when you are multitask with multiple apps at once, you may want to split your view. It's an alternative of Magnet",
+    "link": "https://rectangleapp.com/"
+  },
+  {
+    "title": "Ngrok",
+    "subtitle": "One command for an instant, secure URL to your localhost server through any NAT or firewall.",
+    "tags": ["dev"],
+    "logo": "https://ngrok.com/static/img/ngrok-white.svg",
+    "image": "https://ngrok.com/static/img/v2/terminal-v2.svg",
+    "description": "Useful to let people test your project without any deployment configuration and is not permanent. By default, at every build, a new random url will be generated.",
+    "link": "https://ngrok.com/"
+  },
+  {
+    "title": "NVM",
+    "subtitle": "Node Version Manager",
+    "tags": ["dev", "node"],
+    "logo": "https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg",
+    "image": "https://github.com/willdow/wlin/blob/main/assets/img/nvm.png?raw=true",
+    "description": "Easily manage multiple active node.js versions",
+    "link": "https://github.com/nvm-sh/nvm"
+  }
+]

@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      __dangerouslyDisableSanitizers: ['script'],
+      __dangerouslyDisableSanitizers: ["script"],
       script: [
         {
-          hid: 'segment',
+          hid: "segment",
           innerHTML: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -14,8 +14,8 @@ export default defineNuxtConfig({
 
             gtag('config', 'G-R83ZVMKB85');
           `,
-          type: 'text/javascript',
-          charset: 'utf-8'
+          type: "text/javascript",
+          charset: "utf-8"
         }
       ],
       title: "Willyan LIN",
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
           content: "Blog"
         }
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
     }
   },
   postcss: {

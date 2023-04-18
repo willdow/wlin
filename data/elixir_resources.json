@@ -1,74 +1,51 @@
 [
   {
-    "id": 1,
     "url": "https://exercism.org/tracks/elixir",
     "title": "Exercism",
-    "description":"Learn Elixir Concept with automatic analysis of your code and personal mentoring for FREE.",
-    "tags": [
-      "learning"
-    ],
+    "description": "Learn Elixir Concept with automatic analysis of your code and personal mentoring for FREE.",
+    "tags": ["learning"],
     "icon": "https://d24y9kuxp2d7l2.cloudfront.net/assets/icons/exercism-with-logo-black-b427c06c6a068ba9f391734115e4d22dfa876d1d.svg"
   },
   {
-    "id": 2,
     "url": "https://inquisitivedeveloper.com/tag/lwm-elixir/",
     "title": "Learn With Me: Elixir - The inquisitive developer",
     "description": "Learn Elixir along the developer, a site that I used a lot when I started.",
-    "tags": [
-      "learning", "phoenix"
-    ],
+    "tags": ["learning", "phoenix"],
     "icon": ""
   },
   {
-    "id": 3,
     "url": "https://alchemist.camp/start",
     "title": "Alchemist Camp",
-    "description":"Alchemist Camp has a growing library of resources to help you learn the Elixir language and this page is your brief guide on how to use it.",
-    "tags": [
-      "learning"
-    ],
-    "icon":"https://alchemist.camp/images/ac2-logo-semi-sm-35bdf1d145e86b6cdc14a8829cc4a093.png?vsn=d"
+    "description": "Alchemist Camp has a growing library of resources to help you learn the Elixir language and this page is your brief guide on how to use it.",
+    "tags": ["learning"],
+    "icon": "https://alchemist.camp/images/ac2-logo-semi-sm-35bdf1d145e86b6cdc14a8829cc4a093.png?vsn=d"
   },
   {
-    "id": 4,
     "url": "https://github.com/petalframework/petal_components",
     "title": "Petal Components",
     "description": "I'm inspired by their components which are simple and complete.",
-    "tags": [
-      "phoenix",
-      "components",
-      "tailwindcss"
-    ],
+    "tags": ["phoenix", "components", "tailwindcss"],
     "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
   },
   {
-    "id": 5,
     "url": "https://github.com/sger/ElixirBooks",
     "title": "Elixir Books",
     "description": "List of Elixir books, I learned everything from 'Programming Phoenix 1.4'.",
-    "tags": [
-      "book"
-    ],
+    "tags": ["book"],
     "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
   },
   {
-    "id": 6,
     "url": "https://www.synbioz.com/blog/tech/tag/elixir",
     "title": "Synbioz",
     "description": "French articles in elixir.",
-    "tags": [
-      "article", "french"
-    ],
+    "tags": ["article", "french"],
     "icon": "https://www.synbioz.com/hubfs/website-2021/logos/synbioz-logo.svg"
   },
   {
-    "id": 7,
     "url": "https://awesome-elixir.ru/",
     "title": "Awesome Elixir",
     "description": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things.",
-    "tags": [
-      "resource", "inspiration"
-    ],
+    "tags": ["resource", "inspiration"],
     "icon": ""
   }
 ]
