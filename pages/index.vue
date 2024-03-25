@@ -7,7 +7,9 @@
       This site is made with Nuxt 3 + Vue 3 Composition API + Tailwind CSS
     </div>
     <div class="mt-16">Take a look at :</div>
-    <div class="sm:flex-row flex-col flex sm:items-baseline">
+    <div
+      class="sm:flex-row flex-wrap 2xl:flex-nowrap flex-col flex sm:items-baseline"
+    >
       <div
         class="m-2 border border-gray-300 px-6 py-5 flex items-center justify-center hover:border-red-500"
       >
